@@ -7,6 +7,7 @@ export default function SyncedInputs() {
   return (
     <div>
       <Button type="primary">Button</Button>
+      This is contentApp.js content
       This is masterApp.js content
       <Nav />
       <Outlet />
