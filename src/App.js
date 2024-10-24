@@ -8,7 +8,6 @@ export default function SyncedInputs() {
     <div>
       <Button type="primary">Button</Button>
       This is contentApp.js content
-      This is masterApp.js content
       <Nav />
       <Outlet />
     </div>
