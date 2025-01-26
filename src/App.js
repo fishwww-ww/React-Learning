@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useReducer ,useRef, useState, useEffect, useMemo} from 'react';
 import { useHistory } from 'react-router-dom';
 
@@ -31,3 +32,21 @@ function Son () {
   return <div>it is son </div>
 }
 
+=======
+import { useState } from 'react';
+import { Outlet } from 'react-router-dom';
+import Nav from './components/nav';
+import { Button } from 'antd';
+
+export default function SyncedInputs() {
+  return (
+    <div>
+      <Button type="primary">Button</Button>
+      This is contentApp.js content
+      This is masterApp.js content
+      <Nav />
+      <Outlet />
+    </div>
+  )
+}
+>>>>>>> 2971918cac435b210b00b076b372a07f7ff7447e
