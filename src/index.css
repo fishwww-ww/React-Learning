@@ -1,54 +1,12 @@
-body {
-  background-color: skyblue;
-  height: 100vh;
+.div {
+    background-color: skyblue;
 }
 
-h1 {
-  color: white;
-  text-align: center;
-  font-size: 80px;
-  margin: 0px;
-  padding-top: 50px;
+.div.active {
+    background-color: tomato;
 }
 
-.todo-list {
-  width: 300px;
-  background-color: #fff;
-  border-radius: 10px;
-  margin: 0 auto;
-  padding: 40px 70px 50px;
-  input {
-    width: 60%;
-    padding: 3px 10px;
-  }
-  input:focus {
-    border-color: skyblue;
-    box-shadow: 0 0 0 0.1rem skyblue;
-    border-radius: 2px;
-    outline: none;
-  }
-}
-
-.data {
-  display: flex;
-  label {
-    
-  }
-  button {
-    margin-left: 5px;
-  }
-}
-
-.todo-item {
-  padding: 3px 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  button {
-    color: skyblue;
-    background-color: #fff;
-    border: 0;
-    box-shadow: none;
-    margin-left: 5px;
-  }
+.div span {
+    height: 20px;
+    width: 20px;
 }

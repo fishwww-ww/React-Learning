@@ -1,0 +1,6 @@
+.container-1, .container-2 {
+    background-color: tomato;
+    border: 2px solid black;
+    width: 200px;
+    margin: 10px;
+}
